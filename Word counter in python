@@ -1,0 +1,13 @@
+# Word Counter Program
+
+def count_words(text):
+    # Split the text into words using spaces and return the length
+    words = text.split()
+    return len(words)
+
+# Input text from the user
+text_input = input("Enter a sentence: ")
+
+# Call the function and display the result
+word_count = count_words(text_input)
+print(f"The number of words in the sentence is: {word_count}")
